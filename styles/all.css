@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(94, 92, 92);
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imagem {
+    width: 100%;
+    height: 60px;
+}
+
+#logo {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+#circulo{
+    height: 200px;
+    margin: 20px;
+}
+
+#textoHome{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#explore{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* :root {
+    --branco: rgb(255, 255, 255);
+    --preto: rgb(0, 0, 0);
+    --vermelho: #ba2d2d;
+    --laranja: #f2511b;
+    --laranjaclaro: #f2861b;
+    --amarelo: #c7c730;
+}
+
+#logo {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--vermelho);
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+#contaNova {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+/* .usuarioImg {
+    margin-right: 40px;
+    height: 80px;
+    width: 150px;
+    float: right;
+} */
+
+/* .botao {
+    color: var(--branco);
+    border: 20px solid transparent;
+    outline: 2px solid var(--branco);
+}
+
+main {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+#banner {
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+#banner h1,
+#banner p {
+    color: var(--preto);
+    width: 100%;
+}
+
+#banner p {
+    text-align: left;
+}
+
+#bannertexto {
+    /* align-items: center; */
+/* background-color: #f2871bb7;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 50px;
+}
+#botaobanner{
+    background-color: var(--preto);
+    color: var(--branco);
+    border-color: var(--laranjaclaro);
+    width: 200px;
+    height: 50px;
+/* } */
