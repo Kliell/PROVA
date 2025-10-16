@@ -164,3 +164,16 @@ footer {
   height: 160px;
   background-color: #ff3f3f;
 }
+.elemento-que-gira {
+  animation-name: meu-giro;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+@keyframes meu-giro {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
