@@ -7,7 +7,7 @@ header {
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: rgb(94, 92, 92);
+    background-color: rgb(161, 179, 255);
     align-items: center;
     justify-content: space-between;
 }
@@ -29,134 +29,138 @@ nav {
     gap: 10px;
     margin: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
 }
-#circulo{
+
+#circulo {
     height: 200px;
     margin: 20px;
 }
 
-#textoHome{
+#textoHome {
     margin: 20px;
     display: flex;
     justify-content: space-between;
 }
-#explore{
-    background-color: grey;
+
+#explore {
+    background-color: rgb(110, 113, 250);
+}
+
+#exploreT {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-}
-/* :root {
-    --branco: rgb(255, 255, 255);
-    --preto: rgb(0, 0, 0);
-    --vermelho: #ba2d2d;
-    --laranja: #f2511b;
-    --laranjaclaro: #f2861b;
-    --amarelo: #c7c730;
 }
 
-#logo {
-    height: 100%;
-}
-
-header {
+#exploreC {
     display: flex;
-    width: 100%;
-    height: 100px;
-    background-color: var(--vermelho);
-    align-items: center;
     justify-content: space-between;
 }
 
-nav {
-    display: flex;
-    gap: 20px;
+article {
+    margin: 20px;
+    margin-top: 80px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--branco);
-}
-
-.logo {
-    height: 100px;
-    width: 200px;
-}
-
-#contaNova {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 50px;
-}
-
-#menu {
-    display: flex;
-    align-items: center;
-}
-
-/* .usuarioImg {
-    margin-right: 40px;
-    height: 80px;
-    width: 150px;
-    float: right;
-} */
-
-/* .botao {
-    color: var(--branco);
-    border: 20px solid transparent;
-    outline: 2px solid var(--branco);
-}
-
-main {
-    background-color: black;
+#imgE {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 footer {
-    background-color: black;
-}
-
-#banner {
+    background-color: rgb(63, 250, 104);
     color: white;
-    margin-top: 20px;
-    width: 100%;
-    height: 600px;
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
     align-items: center;
+    justify-content: center;
     display: flex;
-}
-
-#banner h1,
-#banner p {
-    color: var(--preto);
-    width: 100%;
-}
-
-#banner p {
-    text-align: left;
-}
-
-#bannertexto {
-    /* align-items: center; */
-/* background-color: #f2871bb7;
-    display: flex;
-    gap: 10px;
     flex-direction: column;
-    padding: 50px;
 }
-#botaobanner{
-    background-color: var(--preto);
-    color: var(--branco);
-    border-color: var(--laranjaclaro);
-    width: 200px;
-    height: 50px;
-/* } */
+
+.posts {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.post-img {
+  width: 120px;
+  height: 120px;
+  background-color: #547cff;
+  object-fit: cover;
+}
+
+.post-text h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.post-text h3 {
+  font-size: 16px;
+  color: #444;
+  margin: 4px 0;
+}
+
+.post-text p {
+  margin: 4px 0 10px;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.autor img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.networking {
+  background-color: #1f8fff;
+  padding: 50px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.networking-text {
+  flex: 1;
+}
+
+.networking-text h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.networking-text p {
+  margin: 6px 0;
+}
+
+.networking-imgs {
+  display: flex;
+  gap: 20px;
+}
+
+.img-placeholder {
+  width: 120px;
+  height: 160px;
+  background-color: #ff3f3f;
+}
